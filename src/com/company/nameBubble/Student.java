@@ -1,7 +1,7 @@
 package com.company.nameBubble;
 
 import java.util.Date;
-//test for git
+//test for git and some more
 public class Student {
     private Date gebdatum;
     private String einkommen;
