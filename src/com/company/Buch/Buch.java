@@ -4,15 +4,14 @@ public class Buch {
     private int Inventarnummer;
     private String Titel;
     private double Nettopreis;
-    private double MehrWSPS;
+    private static double MehrWSPS;
     private int Stückzahl;
 
-    public Buch (int Inventarnummer, String Titel, double Nettopreis, double MehrWPS, int Stückzahl)
+    public Buch (int Inventarnummer, String Titel, double Nettopreis, int Stückzahl)
     {
         this.Inventarnummer = Inventarnummer;
         this.Titel = Titel;
         this.Nettopreis = Nettopreis;
-        this.MehrWSPS = MehrWPS;
         this.Stückzahl = Stückzahl;
     }
 
@@ -28,7 +27,7 @@ public class Buch {
         Nettopreis = nettopreis;
     }
 
-    public void setMehrWSPS(double mehrWSPS) {
+    public static void setMehrWSPS(double mehrWSPS) {
         MehrWSPS = mehrWSPS;
     }
 
@@ -45,7 +44,7 @@ public class Buch {
     public double getNettopreis() {
         return Nettopreis;
     }
-    public double getMehrWSPS() {
+    public static double getMehrWSPS() {
         return MehrWSPS;
     }
     public int getStückzahl() {
