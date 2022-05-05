@@ -1,4 +1,4 @@
-package com.company.CompilerSpielen;
+package com.company.Theorie_verschiedenes.CompilerSpielen;
 
 public class Schlagezeug {
     boolean tomTom = true;

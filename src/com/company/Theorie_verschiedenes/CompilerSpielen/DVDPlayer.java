@@ -1,4 +1,4 @@
-package com.company.CompilerSpielen;
+package com.company.Theorie_verschiedenes.CompilerSpielen;
 /*
 Aufgabe: Code gegeb, der nicht ganz funktioniert. Zeilen hinzufügen, die den ode zum laufen bringen
 */
