@@ -1,4 +1,4 @@
-package com.company.Buch;
+package com.company.projekte_praxis_zweites_semester.Bücher;
 
 public class Buch {
     private int Inventarnummer;
