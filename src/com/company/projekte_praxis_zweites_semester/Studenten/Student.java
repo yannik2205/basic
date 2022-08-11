@@ -1,7 +1,7 @@
-package com.company.nameBubble;
+package com.company.projekte_praxis_zweites_semester.Studenten;
 
 import java.util.Date;
-//test for git
+//test for git and some more and some more and some more
 public class Student {
     private Date gebdatum;
     private String einkommen;

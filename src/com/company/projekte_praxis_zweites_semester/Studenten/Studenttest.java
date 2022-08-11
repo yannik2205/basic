@@ -1,6 +1,4 @@
-package com.company.nameBubble;
-
-import com.company.nameBubble.*;
+package com.company.projekte_praxis_zweites_semester.Studenten;
 
 import java.util.Date;
 
