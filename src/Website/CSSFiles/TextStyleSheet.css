@@ -1,0 +1,48 @@
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.Tahoma{
+    font-family: Tahoma;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.Big_Deals{
+    font-family: Arial;
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+.Sales_End{
+    font-size: 12px;
+    color: #d50202;
+    margin-bottom: 30px;
+}
+.Html_Course{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Verdana;
+    margin-bottom: 2px;
+}
+.BTP{
+    font-family: Verdana;
+    color: gray;
+    margin-bottom: 20px;
+}
+.TestCourse{
+    font-family: Verdana;
+}
+.TestCourse2{
+    font-family: Verdana;
+    margin-bottom: 16px;
+}
+.Get_Started{
+    font-family: Verdana;
+    color: white;
+    border: none;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    background-color: #02a602;
+}
