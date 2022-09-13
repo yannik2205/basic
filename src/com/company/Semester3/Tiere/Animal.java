@@ -77,10 +77,16 @@ class Animals{
 
         another_cat.feed("milk");
 
+        Carnivore tiger = new Carnivore("tiger", "LockerNhTonne");
+        Animal cow = new Animal("Cow", "Berta");
+        tiger.feed(cow);
+
+
         Zoo test_zoo = new Zoo();
         test_zoo.add_animal(cat_object);
         test_zoo.add_animal(dog_object);
         test_zoo.add_animal(another_cat);
+        test_zoo.add_animal(tiger);
         test_zoo.make_animals_speak();
 
     }
@@ -104,11 +110,20 @@ class Zoo
 
 class Carnivore extends Animal
 {
-    Carnivore tiger = new Carnivore();
-    Animal cow = new Animal();
-
+    public Carnivore(String given_species_name, String given_name)
+    {
+        species_name  =given_species_name;
+        animal_name = given_name;
+        stomache_contents[number_off_feedings] = "";
+    }
 
     public void feed(Animal animal_to_be_eaten) {
-        stomache_contents[number_off_feedings] = animal_to_be_eaten.species_name;
+        super.feed(animal_to_be_eaten.species_name);
+    }
+
+    @Override
+    public void make_speak() {
+        super.make_speak();
     }
 }
+
