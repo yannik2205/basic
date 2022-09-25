@@ -3,7 +3,7 @@ package com.company.Semester3.Wohnungen;
 import java.util.Scanner;
 
 public class WohnungRun {
-    public static void Run() throws negativeMiete{
+    public static void main(String[] args){
         int anzahlWohnungen = 0;
         int anzahlDach = 0;
 
