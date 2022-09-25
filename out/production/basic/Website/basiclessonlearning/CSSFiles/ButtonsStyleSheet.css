@@ -1,0 +1,41 @@
+.Amazon-Link{
+    color: rgb(0,113,133);
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.Amazon-Link:hover{
+    color: #e57b17;
+}
+.Headline{
+    font-size: 26px;
+    font-weight: bolder;
+}
+.Info-headline{
+    color: rgb(0,118,0);
+    font-weight: bold;
+}
+.AddToCart-Button{
+    background-color: rgb(255,216,20);
+    border: none;
+    border-radius: 11px;
+    height: 22px;
+    width: 90px;
+    cursor: pointer;
+    margin-right: 6px;
+    transition: background-color 0.15s;
+}
+.AddToCart-Button:hover{
+    background-color: #e8c412;
+}
+.BuyNow-Button{
+    background-color: rgb(255,164,28);
+    border: none;
+    border-radius: 11px;
+    height: 22px;
+    width: 74px;
+    cursor: pointer;
+}
+.BuyNow-Button:hover{
+    background-color: #e09019;
+}
