@@ -1,3 +1,6 @@
+p{
+    font-family: Roboto, Arial; <!-- Ariel as backup if Roboto is stupid and wont load -->
+}
 .thumbnail{
     width: 300px;
     height: 150px;
@@ -6,14 +9,49 @@
 .searchBar{
     display: block;
 }
-.videoTitle{
-    width: 300px;
 
-}
 .videoPreview{
     width: 300px;
     display: inline-block;
     vertical-align: top;
     margin-right: 15px;
 
+}
+.VideoInfo\+ProfilePicture{
+    margin-top: 16px;
+}
+.ChannelPictureDiv{
+    display: inline-block;
+    width: 35px;
+}
+.ChannelPictures{
+    width: 90%;
+    border-radius: 50%;
+    vertical-align: top;
+
+}
+.VideoPreviewInfoDiv{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    margin: 0px;
+}
+.videoTitle{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-weight: normal;
+
+}
+.channelname{
+    margin-top: 0px;
+    color: rgb(60,60,60);
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.videoInfo{
+    margin-top: 0px;
+    color: rgb(60,60,60);
+    font-weight: lighter;
+    font-size: 15px;
 }
