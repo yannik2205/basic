@@ -1,5 +1,5 @@
 p{
-    font-family: Roboto, Arial; <!-- Ariel as backup if Roboto is stupid and wont load -->
+    font-family: Roboto, Arial; /* Arial as backup if roboto is stupid*/
 }
 .thumbnail{
     width: 300px;
@@ -19,39 +19,36 @@ p{
 }
 .VideoInfo\+ProfilePicture{
     margin-top: 16px;
-}
-.ChannelPictureDiv{
-    display: inline-block;
-    width: 35px;
+    display: grid;
+    grid-template-columns: 40px 1fr;
 }
 .ChannelPictures{
-    width: 90%;
     border-radius: 50%;
     vertical-align: top;
-
+    width: 90%;
 }
 .VideoPreviewInfoDiv{
-    display: inline-block;
-    width: 200px;
+
     vertical-align: top;
     margin: 0px;
 }
 .videoTitle{
     margin-top: 0px;
-    margin-bottom: 5px;
-    font-weight: normal;
+    margin-bottom: 10px;
+    font-weight: bold;
+
 
 }
 .channelname{
     margin-top: 0px;
-    color: rgb(60,60,60);
+    color: grey;
     font-weight: lighter;
     font-size: 15px;
     margin-bottom: 3px;
 }
 .videoInfo{
     margin-top: 0px;
-    color: rgb(60,60,60);
-    font-weight: lighter;
+    color: grey;
+
     font-size: 15px;
 }
