@@ -1,21 +1,11 @@
-p{
-    font-family: Roboto, Arial; /* Arial as backup if roboto is stupiid*/
+.Video-Info-Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 40px;
 }
 .thumbnail{
-    width: 300px;
-    height: 150px;
-    display: block;
-}
-.searchBar{
-    display: block;
-}
-
-.videoPreview{
-    width: 300px;
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15px;
-
+    width: 100%;
 }
 .VideoInfo\+ProfilePicture{
     margin-top: 16px;
@@ -49,6 +39,6 @@ p{
 .videoInfo{
     margin-top: 0px;
     color: grey;
-
     font-size: 15px;
+    margin-bottom: 0px;
 }
