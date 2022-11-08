@@ -1,0 +1,23 @@
+.Header{
+    height: 55px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.Left-Section{
+    background-color: lightblue;
+    width: 150px;
+}
+.Middle-Section{
+    background-color: lightcoral;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 40px;
+    max-width: 500px;
+}
+.Right-Section{
+    background-color: lightcyan;
+    width: 200px;
+}

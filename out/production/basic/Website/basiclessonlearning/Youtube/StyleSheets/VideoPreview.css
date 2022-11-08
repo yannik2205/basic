@@ -1,0 +1,44 @@
+.Video-Info-Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 40px;
+}
+.thumbnail{
+    width: 100%;
+}
+.VideoInfo\+ProfilePicture{
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+}
+.ChannelPictures{
+    border-radius: 50%;
+    vertical-align: top;
+    width: 90%;
+}
+.VideoPreviewInfoDiv{
+
+    vertical-align: top;
+    margin: 0px;
+}
+.videoTitle{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+
+}
+.channelname{
+    margin-top: 0px;
+    color: grey;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.videoInfo{
+    margin-top: 0px;
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
