@@ -16,4 +16,18 @@ public class Kurvendiskussion {
         }
         return max;
     }
+    public double getMin (double a, double b, int anz)
+    {
+        double h = (b-a) / anz;
+        double min = this.fkt.fktWert(a);
+        for (int i = 1; i<= anz; i++)
+        {
+            double y = this.fkt.fktWert(a+i*h);
+            if (y < min)
+            {
+                min = y;
+            }
+        }
+        return min;
+    }
 }
