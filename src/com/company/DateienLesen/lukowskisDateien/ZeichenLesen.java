@@ -1,3 +1,4 @@
+package com.company.DateienLesen.lukowskisDateien;
 
 import java.io.FileInputStream;
 import java.io.InputStreamReader;
