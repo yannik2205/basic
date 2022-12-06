@@ -4,8 +4,8 @@ public class A {
     protected int y;
     public int z;
     public void print() {
-        System.out.println(x);
-        System.out.println(y);
-        System.out.println(z);
+        System.out.println(x); //1
+        System.out.println(y); //2
+        System.out.println(z); //3
     }
 }
