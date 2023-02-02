@@ -31,7 +31,33 @@ public class Zeit {
             }
         } catch (Exception ex) {
             ex.printStackTrace();
-        }}
+        }
+    }
 
+    public int[] getDifferenz (Zeit pZeit2){
+        int diffMinZeit1 = this.getMinute();
+        int diffStdZeit1 = this.getStunde();
+        int diffMinZeit2 = pZeit2.getMinute();
+        int diffStdZeit2 = pZeit2.getStunde();
+        int differenzMinutenArray[] = new int[2];
+
+        if ((diffMinZeit1 + diffStdZeit1 * 60) >= (diffMinZeit2 + diffStdZeit2 * 60)){
+            int differenzMinuten = (diffMinZeit1 + diffStdZeit1 * 60) - (diffMinZeit2 + diffStdZeit2 * 60);
+            differenzMinutenArray[0] = differenzMinuten / 60;
+            differenzMinutenArray[1] = differenzMinuten % 60;
+        }
+        else if ((diffMinZeit1 + diffStdZeit1 * 60) <= (diffMinZeit2 + diffStdZeit2 * 60)){
+            int differenzMinuten = (diffMinZeit2 + diffStdZeit2 * 60) - (diffMinZeit1 + diffStdZeit1 * 60);
+            differenzMinutenArray[0] = differenzMinuten / 60;
+            differenzMinutenArray[1] = differenzMinuten % 60;
+        }
+        else if ((diffMinZeit1 + diffStdZeit1 * 60) == (diffMinZeit2 + diffStdZeit2 * 60)){
+            int differenzMinuten = 0;
+            differenzMinutenArray[0] = differenzMinuten / 60;
+            differenzMinutenArray[1] = differenzMinuten % 60;
+        }
+
+        return differenzMinutenArray;
+    }
 
 }
