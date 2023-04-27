@@ -1,7 +1,7 @@
 <application>
   <component name="OverrideFileTypeManager">
-    <file url="file://I:/McModss/src/main/resources/assets/darquise/blockstates/deepslate_steel_ore.json" value="JSON" />
-    <file url="file://I:/McModss/src/main/resources/assets/darquise/models/block/deepslate_steel_ore.json" value="JSON" />
-    <file url="file://I:/McModss/src/main/resources/assets/darquise/models/item/deepslate_steel_ore.json" value="JSON" />
+    <file url="file://I:/McModss/src/main/resources/assets/darquise/blockstates/deepslate_opal_ore.json" value="JSON" />
+    <file url="file://I:/McModss/src/main/resources/assets/darquise/models/block/deepslate_opal_ore.json" value="JSON" />
+    <file url="file://I:/McModss/src/main/resources/assets/darquise/models/item/deepslate_opal_ore.json" value="JSON" />
   </component>
 </application>
